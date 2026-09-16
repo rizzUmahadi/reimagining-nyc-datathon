@@ -1,0 +1,57 @@
+DateObserved,HourObserved,LocalTimeZone,ReportingArea,StateCode,Latitude,Longitude,ParameterName,AQI,Category,location_label,period_label
+2025-01-13,0,EST,New York City Region,NY,40.8419,-73.8359,PM2.5,68,"{'Number': 2, 'Name': 'Moderate'}",Manhattan_CBD,early
+2025-01-14,0,EST,New York City Region,NY,40.8419,-73.8359,PM2.5,48,"{'Number': 1, 'Name': 'Good'}",Manhattan_CBD,early
+2025-01-15,0,EST,New York City Region,NY,40.8419,-73.8359,PM2.5,46,"{'Number': 1, 'Name': 'Good'}",Manhattan_CBD,early
+2025-01-16,0,EST,New York City Region,NY,40.8419,-73.8359,PM2.5,57,"{'Number': 2, 'Name': 'Moderate'}",Manhattan_CBD,early
+2025-01-17,0,EST,New York City Region,NY,40.8419,-73.8359,PM2.5,71,"{'Number': 2, 'Name': 'Moderate'}",Manhattan_CBD,early
+2025-01-18,0,EST,New York City Region,NY,40.8419,-73.8359,PM2.5,57,"{'Number': 2, 'Name': 'Moderate'}",Manhattan_CBD,early
+2025-01-19,0,EST,New York City Region,NY,40.8419,-73.8359,PM2.5,53,"{'Number': 2, 'Name': 'Moderate'}",Manhattan_CBD,early
+2025-01-13,0,EST,New York City Region,NY,40.8419,-73.8359,PM2.5,68,"{'Number': 2, 'Name': 'Moderate'}",South_Bronx,early
+2025-01-14,0,EST,New York City Region,NY,40.8419,-73.8359,PM2.5,48,"{'Number': 1, 'Name': 'Good'}",South_Bronx,early
+2025-01-15,0,EST,New York City Region,NY,40.8419,-73.8359,PM2.5,46,"{'Number': 1, 'Name': 'Good'}",South_Bronx,early
+2025-01-16,0,EST,New York City Region,NY,40.8419,-73.8359,PM2.5,57,"{'Number': 2, 'Name': 'Moderate'}",South_Bronx,early
+2025-01-17,0,EST,New York City Region,NY,40.8419,-73.8359,PM2.5,71,"{'Number': 2, 'Name': 'Moderate'}",South_Bronx,early
+2025-01-18,0,EST,New York City Region,NY,40.8419,-73.8359,PM2.5,57,"{'Number': 2, 'Name': 'Moderate'}",South_Bronx,early
+2025-01-19,0,EST,New York City Region,NY,40.8419,-73.8359,PM2.5,53,"{'Number': 2, 'Name': 'Moderate'}",South_Bronx,early
+2025-01-13,0,EST,New York City Region,NY,40.8419,-73.8359,PM2.5,68,"{'Number': 2, 'Name': 'Moderate'}",Upper_Manhattan,early
+2025-01-14,0,EST,New York City Region,NY,40.8419,-73.8359,PM2.5,48,"{'Number': 1, 'Name': 'Good'}",Upper_Manhattan,early
+2025-01-15,0,EST,New York City Region,NY,40.8419,-73.8359,PM2.5,46,"{'Number': 1, 'Name': 'Good'}",Upper_Manhattan,early
+2025-01-16,0,EST,New York City Region,NY,40.8419,-73.8359,PM2.5,57,"{'Number': 2, 'Name': 'Moderate'}",Upper_Manhattan,early
+2025-01-17,0,EST,New York City Region,NY,40.8419,-73.8359,PM2.5,71,"{'Number': 2, 'Name': 'Moderate'}",Upper_Manhattan,early
+2025-01-18,0,EST,New York City Region,NY,40.8419,-73.8359,PM2.5,57,"{'Number': 2, 'Name': 'Moderate'}",Upper_Manhattan,early
+2025-01-19,0,EST,New York City Region,NY,40.8419,-73.8359,PM2.5,53,"{'Number': 2, 'Name': 'Moderate'}",Upper_Manhattan,early
+2025-01-13,0,EST,Northeast Urban,NJ,40.692,-74.187,PM2.5,61,"{'Number': 2, 'Name': 'Moderate'}",Downtown_Brooklyn,early
+2025-01-14,0,EST,Northeast Urban,NJ,40.692,-74.187,PM2.5,27,"{'Number': 1, 'Name': 'Good'}",Downtown_Brooklyn,early
+2025-01-15,0,EST,Northeast Urban,NJ,40.692,-74.187,PM2.5,19,"{'Number': 1, 'Name': 'Good'}",Downtown_Brooklyn,early
+2025-01-16,0,EST,Northeast Urban,NJ,40.692,-74.187,PM2.5,46,"{'Number': 1, 'Name': 'Good'}",Downtown_Brooklyn,early
+2025-01-17,0,EST,Northeast Urban,NJ,40.692,-74.187,PM2.5,64,"{'Number': 2, 'Name': 'Moderate'}",Downtown_Brooklyn,early
+2025-01-18,0,EST,Northeast Urban,NJ,40.692,-74.187,PM2.5,55,"{'Number': 2, 'Name': 'Moderate'}",Downtown_Brooklyn,early
+2025-01-19,0,EST,Northeast Urban,NJ,40.692,-74.187,PM2.5,41,"{'Number': 1, 'Name': 'Good'}",Downtown_Brooklyn,early
+2026-08-25,0,EST,New York City Region,NY,40.8419,-73.8359,PM2.5,24,"{'Number': 1, 'Name': 'Good'}",Manhattan_CBD,recent
+2026-08-26,0,EST,New York City Region,NY,40.8419,-73.8359,PM2.5,29,"{'Number': 1, 'Name': 'Good'}",Manhattan_CBD,recent
+2026-08-27,0,EST,New York City Region,NY,40.8419,-73.8359,PM2.5,46,"{'Number': 1, 'Name': 'Good'}",Manhattan_CBD,recent
+2026-08-28,0,EST,New York City Region,NY,40.8419,-73.8359,PM2.5,53,"{'Number': 2, 'Name': 'Moderate'}",Manhattan_CBD,recent
+2026-08-29,0,EST,New York City Region,NY,40.8419,-73.8359,PM2.5,27,"{'Number': 1, 'Name': 'Good'}",Manhattan_CBD,recent
+2026-08-30,0,EST,New York City Region,NY,40.8419,-73.8359,PM2.5,51,"{'Number': 2, 'Name': 'Moderate'}",Manhattan_CBD,recent
+2026-08-31,0,EST,New York City Region,NY,40.8419,-73.8359,PM2.5,42,"{'Number': 1, 'Name': 'Good'}",Manhattan_CBD,recent
+2026-08-25,0,EST,New York City Region,NY,40.8419,-73.8359,PM2.5,24,"{'Number': 1, 'Name': 'Good'}",South_Bronx,recent
+2026-08-26,0,EST,New York City Region,NY,40.8419,-73.8359,PM2.5,29,"{'Number': 1, 'Name': 'Good'}",South_Bronx,recent
+2026-08-27,0,EST,New York City Region,NY,40.8419,-73.8359,PM2.5,46,"{'Number': 1, 'Name': 'Good'}",South_Bronx,recent
+2026-08-28,0,EST,New York City Region,NY,40.8419,-73.8359,PM2.5,53,"{'Number': 2, 'Name': 'Moderate'}",South_Bronx,recent
+2026-08-29,0,EST,New York City Region,NY,40.8419,-73.8359,PM2.5,27,"{'Number': 1, 'Name': 'Good'}",South_Bronx,recent
+2026-08-30,0,EST,New York City Region,NY,40.8419,-73.8359,PM2.5,51,"{'Number': 2, 'Name': 'Moderate'}",South_Bronx,recent
+2026-08-31,0,EST,New York City Region,NY,40.8419,-73.8359,PM2.5,42,"{'Number': 1, 'Name': 'Good'}",South_Bronx,recent
+2026-08-25,0,EST,New York City Region,NY,40.8419,-73.8359,PM2.5,24,"{'Number': 1, 'Name': 'Good'}",Upper_Manhattan,recent
+2026-08-26,0,EST,New York City Region,NY,40.8419,-73.8359,PM2.5,29,"{'Number': 1, 'Name': 'Good'}",Upper_Manhattan,recent
+2026-08-27,0,EST,New York City Region,NY,40.8419,-73.8359,PM2.5,46,"{'Number': 1, 'Name': 'Good'}",Upper_Manhattan,recent
+2026-08-28,0,EST,New York City Region,NY,40.8419,-73.8359,PM2.5,53,"{'Number': 2, 'Name': 'Moderate'}",Upper_Manhattan,recent
+2026-08-29,0,EST,New York City Region,NY,40.8419,-73.8359,PM2.5,27,"{'Number': 1, 'Name': 'Good'}",Upper_Manhattan,recent
+2026-08-30,0,EST,New York City Region,NY,40.8419,-73.8359,PM2.5,51,"{'Number': 2, 'Name': 'Moderate'}",Upper_Manhattan,recent
+2026-08-31,0,EST,New York City Region,NY,40.8419,-73.8359,PM2.5,42,"{'Number': 1, 'Name': 'Good'}",Upper_Manhattan,recent
+2026-08-25,0,EST,Northeast Urban,NJ,40.692,-74.187,PM2.5,24,"{'Number': 1, 'Name': 'Good'}",Downtown_Brooklyn,recent
+2026-08-26,0,EST,Northeast Urban,NJ,40.692,-74.187,PM2.5,31,"{'Number': 1, 'Name': 'Good'}",Downtown_Brooklyn,recent
+2026-08-27,0,EST,Northeast Urban,NJ,40.692,-74.187,PM2.5,52,"{'Number': 2, 'Name': 'Moderate'}",Downtown_Brooklyn,recent
+2026-08-28,0,EST,Northeast Urban,NJ,40.692,-74.187,PM2.5,52,"{'Number': 2, 'Name': 'Moderate'}",Downtown_Brooklyn,recent
+2026-08-29,0,EST,Northeast Urban,NJ,40.692,-74.187,PM2.5,28,"{'Number': 1, 'Name': 'Good'}",Downtown_Brooklyn,recent
+2026-08-30,0,EST,Northeast Urban,NJ,40.692,-74.187,PM2.5,54,"{'Number': 2, 'Name': 'Moderate'}",Downtown_Brooklyn,recent
+2026-08-31,0,EST,Northeast Urban,NJ,40.692,-74.187,PM2.5,50,"{'Number': 1, 'Name': 'Good'}",Downtown_Brooklyn,recent
