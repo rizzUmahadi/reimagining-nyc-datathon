@@ -107,3 +107,36 @@ print("\n=== boro_cd sample values ===")
 print(districts["boro_cd"].unique()[:10] if "boro_cd" in districts.columns else "boro_cd column missing after merge")
 print("\n=== geo_join_id sample values ===")
 print(pm25["geo_join_id"].unique()[:10])
+
+# ---------------------------------------------------------------------------
+# 5. EXPLANATORY PANEL — embedded directly in the map per submission instructions
+# ---------------------------------------------------------------------------
+info_html = """
+<div style="position: fixed; top: 10px; left: 10px; z-index: 9999;
+            background: white; padding: 14px 18px; border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.3); max-width: 340px;
+            font-family: Arial, sans-serif; font-size: 13px; line-height: 1.5;">
+  <h3 style="margin: 0 0 8px 0; font-size: 16px;">Reimagining NYC: Congestion Pricing & Air Quality</h3>
+  <p style="margin: 0 0 8px 0;">
+    Is congestion pricing eliminating pollution, or moving it? This map integrates
+    MTA traffic crossing data (Jan 2025 vs. Aug 2026) with NYCCAS PM2.5 data (2024)
+    to show where traffic patterns have shifted since the Central Business District
+    Tolling Program began Jan 5, 2025.
+  </p>
+  <p style="margin: 0 0 8px 0;">
+    <b>What we found:</b> traffic dropped at crossings like West 60th St (-12.3%)
+    and Brooklyn Bridge (-8.4%), but rose sharply at Holland Tunnel (+17.6%) and
+    Queens Midtown Tunnel (+13.8%) — consistent with independent research (South
+    Bronx Unite, Columbia/Brown/CU Boulder, 2026) finding PM2.5 increases at
+    12-14 of 19 South Bronx monitoring sites post-tolling, even as a Cornell
+    study found a 22% PM2.5 drop citywide in the same period.
+  </p>
+  <p style="margin: 0;">
+    <b>Toggle layers</b> (top right) to compare air quality and traffic change.
+    Red markers = traffic increase, blue = decrease at that crossing.
+  </p>
+</div>
+"""
+m.get_root().html.add_child(folium.Element(info_html))
+m.save("outputs/draft_map.html")
+print("\nExplanation panel added. Map re-saved to outputs/draft_map.html")

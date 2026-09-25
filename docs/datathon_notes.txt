@@ -1,0 +1,43 @@
+asthma ed visits adults 2023
+pm2.5 2024
+pm2.5 2025
+crz traffic entries
+total traffic count 2025 (manhattan)
+total traffic count 2024 (manhattan)
+total traffic count 2025 (bronx)
+total traffic count 2024 (bronx)
+
+assumptions:
+pm2.5 down
+traffic down
+only significant change decrease at QB bridge
+south bronx increased in pm2.5
+
+is congestion pricing eliminating or moving pollution
+if moving, towards or away from vulnerable communities
+
+pm2.5 2024 and 2025 displays change in pm2.5
+total traffic count data = manhattan only = displays change between 2024 and 2025
+total traffic count data = bronx only = displays change between 2024 and 2025
+crz traffic entries should show traffic breakdown
+asthma ed visits adults 2023 also shows breakdown
+
+why do I think this works? difference between pm2.5 shows whether there is a change, and how it shifted. if up, all solutions are ineffective or 2025 is a anomalous year. if down, then solutions are effective, issue is we don't know what. 
+traffic change helps us verify the traffic change. crz is lower manhattan, where if traffic increase implies that the congestion pricing doesn't decrease traffic, debunking claim. if traffic is down, claim is somewhat supported, now we ask how much a change, which the change can be attributed to many factors. 
+crz traffic entries and asthma ed cases are meant to show breakdowns, which we then use to identify how much can be attributed to congestion pricing. How? I don't know yet. 
+With district breakdown, we can now identify where there is the biggest issue to apply further solutions, probably where pm2.5 barely changed and increased, while crz also increased, and there exists a large amount of asthma ed pre congestion pricing. 
+
+traffic count data for bronx and difference helps us to verify south bronx claims. if bronx difference increased, manhattan difference decreased, possibility people use bronx instead. if bronx difference increased, manhattan increased, no correlation. if bronx decreased, to be determined. 
+combine traffic count with pm2.5 data to find correlation between pm2.5 and traffic count in south bronx, using the same assumption as above to test further correlations. 
+
+what we need to do:
+pm2.5 2024 and 2025 displays change in pm2.5 (the map, broken by district, hover over and see pm2.5 change in level, number)
+total traffic count data = manhattan only = displays change between 2024 and 2025 (doesn't need to be on map, but has to be calculated using the data)
+total traffic count data = bronx only = displays change between 2024 and 2025 (doesn't need to be on map but has to be calculated using the data)
+crz traffic entries should show traffic breakdown (map should hover over and show total traffic count broken by district)
+asthma ed visits adults 2023 also shows breakdown (map should hover over and show total cases broken down by district)
+
+for chloropleth breakdown:
+pm2.5 only needs to show if there is a change, and color coded by range of changes. IE, if less than 5% increase then light red, and if 95% change then dark red. 
+for traffic and asthma ed cases layers:
+percentage of cases over entire city, then building a scale based on percentages, ie if we have max of .95, and min of .05, then the scale should reflect that with .05 of total traffic being light, then lighter color, and .95 of total traffic being heavy, then darker color. apply such to asthma cases as well. 

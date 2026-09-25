@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_3a6b18a9edf27e0571686bdc88b27e69 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    <div style="position: fixed; bottom: 30px; left: 50px; z-index: 9999;
+    background: white; padding: 15px; border-radius: 8px; border: 2px solid black; font-size: 14px;">
+    <b>What am I looking at?</b><br>
+    Each circle is a real government air pollution monitor.<br>
+    The number is the average PM2.5 (fine particle pollution) reading, Jan-Jul 2026.<br><br>
+    <span style="color:green;">&#9679;</span> Under 6.5 ug/m3 - Lower pollution<br>
+    <span style="color:orange;">&#9679;</span> 6.5-8 ug/m3 - Moderate<br>
+    <span style="color:darkred;">&#9679;</span> Over 8 ug/m3 - Higher pollution
+    </div>
+    <div style="position: fixed; top: 10px; left: 50px; z-index: 9999;
+    background: white; padding: 10px 20px; border-radius: 5px; font-size: 20px; font-weight: bold;
+    box-shadow: 2px 2px 6px rgba(0,0,0,0.3);">Air Pollution Monitors: Bronx vs Manhattan, 2026</div>
+    
+            <div class="folium-map" id="map_3a6b18a9edf27e0571686bdc88b27e69" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_3a6b18a9edf27e0571686bdc88b27e69 = L.map(
+                "map_3a6b18a9edf27e0571686bdc88b27e69",
+                {
+                    center: [0.0, 0.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 1,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_fde3093736c1ce2fd654a784ac8277f4 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_fde3093736c1ce2fd654a784ac8277f4.addTo(map_3a6b18a9edf27e0571686bdc88b27e69);
+        
+    
+            map_3a6b18a9edf27e0571686bdc88b27e69.fitBounds(
+                [[40.68, -74.05], [40.9, -73.8]],
+                {}
+            );
+        
+    
+            var circle_marker_56c8486c844b6c956849f086423ad328 = L.circleMarker(
+                [40.81551, -73.88553],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 22, "stroke": true, "weight": 2}
+            ).addTo(map_3a6b18a9edf27e0571686bdc88b27e69);
+        
+    
+            var marker_db260d1f03bf43d493c98fee9a6b901f = L.marker(
+                [40.81551, -73.88553],
+                {
+}
+            ).addTo(map_3a6b18a9edf27e0571686bdc88b27e69);
+        
+    
+            var div_icon_7f1a17c7b54aa530f61011632929fdce = L.divIcon({
+  "html": "\u003cdiv style=\"font-size: 14px; font-weight: bold; color: black;\n            background: white; padding: 3px 8px; border-radius: 4px; border: 2px solid black;\n            transform: translate(25px, -12px); white-space: nowrap;\"\u003eIS 74 (Bronx)\u003cbr\u003e10.7 ug/m3\u003c/div\u003e",
+  "className": "empty",
+});
+        
+    
+                marker_db260d1f03bf43d493c98fee9a6b901f.setIcon(div_icon_7f1a17c7b54aa530f61011632929fdce);
+            
+    
+            var circle_marker_ea6b937ce8a04ef5c99e396ef55ba910 = L.circleMarker(
+                [40.816, -73.902],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 22, "stroke": true, "weight": 2}
+            ).addTo(map_3a6b18a9edf27e0571686bdc88b27e69);
+        
+    
+            var marker_28c59407cd3818d02a7c94f268011a62 = L.marker(
+                [40.816, -73.902],
+                {
+}
+            ).addTo(map_3a6b18a9edf27e0571686bdc88b27e69);
+        
+    
+            var div_icon_4996e9f5f3fe87d11a52701c9bd83777 = L.divIcon({
+  "html": "\u003cdiv style=\"font-size: 14px; font-weight: bold; color: black;\n            background: white; padding: 3px 8px; border-radius: 4px; border: 2px solid black;\n            transform: translate(25px, -12px); white-space: nowrap;\"\u003eIS 52 (Bronx)\u003cbr\u003e8.2 ug/m3\u003c/div\u003e",
+  "className": "empty",
+});
+        
+    
+                marker_28c59407cd3818d02a7c94f268011a62.setIcon(div_icon_4996e9f5f3fe87d11a52701c9bd83777);
+            
+    
+            var circle_marker_1f7e7159fa267ad8ecf8ee8364290af1 = L.circleMarker(
+                [40.8679, -73.87809],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 22, "stroke": true, "weight": 2}
+            ).addTo(map_3a6b18a9edf27e0571686bdc88b27e69);
+        
+    
+            var marker_6a293a31e8da88d341cab86833a8cfe7 = L.marker(
+                [40.8679, -73.87809],
+                {
+}
+            ).addTo(map_3a6b18a9edf27e0571686bdc88b27e69);
+        
+    
+            var div_icon_b16293fbe2960295a789ae4a7fd0c073 = L.divIcon({
+  "html": "\u003cdiv style=\"font-size: 14px; font-weight: bold; color: black;\n            background: white; padding: 3px 8px; border-radius: 4px; border: 2px solid black;\n            transform: translate(25px, -12px); white-space: nowrap;\"\u003ePFIZER LAB SITE (Bronx)\u003cbr\u003e6.0 ug/m3\u003c/div\u003e",
+  "className": "empty",
+});
+        
+    
+                marker_6a293a31e8da88d341cab86833a8cfe7.setIcon(div_icon_b16293fbe2960295a789ae4a7fd0c073);
+            
+    
+            var circle_marker_d8c7e32a8d8ee68d04f91b11640be598 = L.circleMarker(
+                [40.71436, -73.99518],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 22, "stroke": true, "weight": 2}
+            ).addTo(map_3a6b18a9edf27e0571686bdc88b27e69);
+        
+    
+            var marker_b4c1f828518de5635a054227995ef768 = L.marker(
+                [40.71436, -73.99518],
+                {
+}
+            ).addTo(map_3a6b18a9edf27e0571686bdc88b27e69);
+        
+    
+            var div_icon_54d7eade9079bd950fecaa2d49824c0b = L.divIcon({
+  "html": "\u003cdiv style=\"font-size: 14px; font-weight: bold; color: black;\n            background: white; padding: 3px 8px; border-radius: 4px; border: 2px solid black;\n            transform: translate(25px, -12px); white-space: nowrap;\"\u003eDIVISION STREET (Manhattan)\u003cbr\u003e11.0 ug/m3\u003c/div\u003e",
+  "className": "empty",
+});
+        
+    
+                marker_b4c1f828518de5635a054227995ef768.setIcon(div_icon_54d7eade9079bd950fecaa2d49824c0b);
+            
+    
+            var circle_marker_be0642eaf4bd52094e0c96e84b45e0b4 = L.circleMarker(
+                [40.73, -73.984],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 22, "stroke": true, "weight": 2}
+            ).addTo(map_3a6b18a9edf27e0571686bdc88b27e69);
+        
+    
+            var marker_296083a7d5967611bca20bdd27fcee28 = L.marker(
+                [40.73, -73.984],
+                {
+}
+            ).addTo(map_3a6b18a9edf27e0571686bdc88b27e69);
+        
+    
+            var div_icon_6774bb2ad5e29655257020f8905d8f71 = L.divIcon({
+  "html": "\u003cdiv style=\"font-size: 14px; font-weight: bold; color: black;\n            background: white; padding: 3px 8px; border-radius: 4px; border: 2px solid black;\n            transform: translate(25px, -12px); white-space: nowrap;\"\u003ePS 19 (Manhattan)\u003cbr\u003e6.6 ug/m3\u003c/div\u003e",
+  "className": "empty",
+});
+        
+    
+                marker_296083a7d5967611bca20bdd27fcee28.setIcon(div_icon_6774bb2ad5e29655257020f8905d8f71);
+            
+    
+            var circle_marker_61e38347ab755c174ff812fbca33703a = L.circleMarker(
+                [40.81976, -73.94825],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 22, "stroke": true, "weight": 2}
+            ).addTo(map_3a6b18a9edf27e0571686bdc88b27e69);
+        
+    
+            var marker_5922569978eb356bafea3990da355a2e = L.marker(
+                [40.81976, -73.94825],
+                {
+}
+            ).addTo(map_3a6b18a9edf27e0571686bdc88b27e69);
+        
+    
+            var div_icon_c35bc922b34f0756ff440434254d1243 = L.divIcon({
+  "html": "\u003cdiv style=\"font-size: 14px; font-weight: bold; color: black;\n            background: white; padding: 3px 8px; border-radius: 4px; border: 2px solid black;\n            transform: translate(25px, -12px); white-space: nowrap;\"\u003eCCNY (Manhattan)\u003cbr\u003e8.3 ug/m3\u003c/div\u003e",
+  "className": "empty",
+});
+        
+    
+                marker_5922569978eb356bafea3990da355a2e.setIcon(div_icon_c35bc922b34f0756ff440434254d1243);
+            
+</script>
+</html>

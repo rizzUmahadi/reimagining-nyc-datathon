@@ -1,0 +1,60 @@
+GeoID,Geography,Borough,AgeAdjRate,PM25_2024,PM25_2025,PM25_change_pct
+201,Mott Haven and Melrose (CD1),Bronx,250.1,6.7954,6.5932,-2.9755422786002224
+202,Hunts Point and Longwood (CD2),Bronx,154.2,7.22,7.1429,-1.0678670360110765
+203,Morrisania and Crotona (CD3),Bronx,206.9,6.7652,6.5375,-3.365754153609656
+204,Highbridge and Concourse (CD4),Bronx,144.9,6.5071,6.3567,-2.3113214796145796
+205,Fordham and University Heights (CD5),Bronx,146.6,6.4647,6.4254,-0.6079168406886614
+206,Belmont and East Tremont (CD6),Bronx,207.2,6.6259,6.5557,-1.05947871232587
+207,Kingsbridge Heights and Bedford (CD7),Bronx,113.1,6.4508,6.4947,0.6805357475041829
+208,Riverdale and Fieldston (CD8),Bronx,50.1,6.3331,6.4084,1.1889911733590244
+209,Parkchester and Soundview (CD9),Bronx,108.3,6.4499,6.4851,0.5457448952696891
+210,Throgs Neck and Co-op City (CD10),Bronx,73.5,6.0361,6.3356,4.961813091234408
+211,Morris Park and Bronxdale (CD11),Bronx,106.7,6.309,6.4515,2.2586780789348557
+212,Williamsbridge and Baychester (CD12),Bronx,148.6,6.1652,6.3604,3.166158437682488
+301,Greenpoint and Williamsburg (CD1),Brooklyn,48.2,7.5003,7.1734,-4.3584923269735905
+302,Fort Greene and Brooklyn Heights (CD2),Brooklyn,55.1,7.2332,6.754,-6.625006912569824
+303,Bedford Stuyvesant (CD3),Brooklyn,125.2,6.8033,6.5376,-3.9054576455543604
+304,Bushwick (CD4),Brooklyn,80.8,6.9185,6.6625,-3.7002240370022434
+305,East New York and Starrett City (CD5),Brooklyn,140.6,6.2357,6.2137,-0.35280722292604444
+306,Park Slope and Carroll Gardens (CD6),Brooklyn,38.1,7.2618,6.7565,-6.958329890660719
+307,Sunset Park (CD7),Brooklyn,32.7,7.026,6.7443,-4.009393680614857
+308,Crown Heights and Prospect Heights (CD8),Brooklyn,93.4,6.7736,6.4629,-4.586925711586154
+309,South Crown Heights and Lefferts Gardens (CD9),Brooklyn,88.4,6.3112,6.2358,-1.1947014830777052
+310,Bay Ridge and Dyker Heights (CD10),Brooklyn,17.6,6.388,6.2165,-2.684721352536005
+311,Bensonhurst (CD11),Brooklyn,14.7,6.1195,6.0673,-0.8530108669008909
+312,Borough Park (CD12),Brooklyn,19.6,6.3742,6.1596,-3.3666969972702443
+313,Coney Island (CD13),Brooklyn,57.5,5.9358,5.967,0.5256241787122078
+314,Flatbush and Midwood (CD14),Brooklyn,50.4,6.1771,6.1347,-0.6864062424114983
+315,Sheepshead Bay (CD15),Brooklyn,18.4,5.863,5.9897,2.1610097219853244
+316,Brownsville (CD16),Brooklyn,231.3,6.3392,6.2301,-1.7210373548712732
+317,East Flatbush (CD17),Brooklyn,122.5,6.2298,6.1523,-1.2440206748210165
+318,Flatlands and Canarsie (CD18),Brooklyn,66.4,5.8023,5.9554,2.638608827533913
+101,Financial District (CD1),Manhattan,15.5,8.0588,7.5462,-6.360748498535762
+102,Greenwich Village and Soho (CD2),Manhattan,7.0,9.4363,8.773,-7.02923815478524
+103,Lower East Side and Chinatown (CD3),Manhattan,50.2,8.0959,7.647,-5.544781926654233
+104,Clinton and Chelsea (CD4),Manhattan,30.2,8.7822,8.0887,-7.896654596798072
+105,Midtown (CD5),Manhattan,20.4,10.4534,9.7052,-7.157479863011083
+106,Stuyvesant Town and Turtle Bay (CD6),Manhattan,18.5,8.3751,7.903,-5.636947618535901
+107,Upper West Side (CD7),Manhattan,29.9,6.7589,6.5321,-3.3555756114160578
+108,Upper East Side (CD8),Manhattan,13.8,7.0556,6.8019,-3.5957253812574446
+109,Morningside Heights and Hamilton Heights (CD9),Manhattan,68.5,6.8314,6.6112,-3.2233509968674086
+110,Central Harlem (CD10),Manhattan,212.1,6.848,6.655,-2.8183411214953216
+111,East Harlem (CD11),Manhattan,187.8,6.6839,6.5247,-2.3818429360104165
+112,Washington Heights and Inwood (CD12),Manhattan,52.1,6.6233,6.5499,-1.108208898887267
+401,Long Island City and Astoria (CD1),Queens,40.9,6.8845,6.6043,-4.070012346575638
+402,Woodside and Sunnyside (CD2),Queens,18.8,7.3673,7.2728,-1.2826951529054067
+403,Jackson Heights (CD3),Queens,30.3,6.4394,6.4837,0.6879522936919555
+404,Elmhurst and Corona (CD4),Queens,26.3,6.5444,6.5016,-0.6539942546299219
+405,Ridgewood and Maspeth (CD5),Queens,35.7,6.5623,6.7239,2.462551239656841
+406,Rego Park and Forest Hills (CD6),Queens,17.6,5.9276,6.185,4.3423982724880155
+407,Flushing and Whitestone (CD7),Queens,18.0,6.0163,6.3036,4.775360271263071
+408,Hillcrest and Fresh Meadows (CD8),Queens,28.4,5.5813,6.0635,8.639564259222773
+409,Kew Gardens and Woodhaven (CD9),Queens,43.6,6.0998,6.2323,2.1722023672907356
+410,South Ozone Park and Howard Beach (CD10),Queens,41.5,5.6563,5.9912,5.9208316390573374
+411,Bayside and Little Neck (CD11),Queens,17.1,5.4759,6.0786,11.006409905221052
+412,Jamaica and Hollis (CD12),Queens,69.6,5.7482,6.1391,6.800389687206435
+413,Queens Village (CD13),Queens,43.3,5.4323,6.0957,12.212138504869028
+414,Rockaway and Broad Channel (CD14),Queens,111.2,5.2645,5.7725,9.649539367461298
+501,St. George and Stapleton (CD1),Staten Island,70.6,6.2594,5.9496,-4.9493561683228435
+502,South Beach and Willowbrook (CD2),Staten Island,31.2,5.9599,5.8264,-2.2399704693031866
+503,Tottenville and Great Kills (CD3),Staten Island,20.0,5.7383,5.6935,-0.7807190282836295

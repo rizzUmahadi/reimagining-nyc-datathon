@@ -1,0 +1,7 @@
+mkdir -p superseded debug
+
+mv manhattan_hourly_change.py manhattan_pm25_epa_3year.py manhattan_pm25_epa_chart.py qmt_hct_yearly.py qmt_hct_hourly.py qmt_hct_inbound_only.py qmt_hct_combined_3year.py lincoln_qmt_chart.py compare_boroughs.py compare_bronx.py compare_manhattan.py bronx_overall_3year.py bronx_pairwise_comparisons.py bronx_hourly_change.py bronx_mta_chart.py bronx_pm25_august_2026.py borough_avg_comparison.py borough_hourly_comparison.py borough_pct_change.py borough_total_comparison.py hourly_avg_24_vs_25.py hourly_avg_manhattan.py bronx_diagnose.py superseded/
+
+mv check_aadt_dataset.py check_aadt_years.py check_august_coverage.py check_august_weekday_mix.py check_bnt_facilities.py check_bronx_months.py check_bronx_segments.py check_bronx_sensors.py check_data_availability.py check_ebfx_dataset.py check_ebfx_range.py check_new_mta_dataset.py check_plaza_ids.py check_pm25_years.py check_reconciled_crossings.py check_sensor_locations.py check_speed_date_range.py check_speed_history.py check_traffic_speeds.py check_weekday_mix.py debug_bronx_pm25.py debug_lincoln_qmt.py debug_raw_response.py find_2026_boundary.py find_bronx_pm25_monitors.py find_bronx_sites.py find_last_date.py find_nyc_counties.py full_manhattan_monitor_list.py isolate_bug.py test_aqs_connection.py verify_asthma_data.py verify_august_dates.py verify_lincoln_coverage.py verify_same_dates.py debug/
+
+echo "Organized."
