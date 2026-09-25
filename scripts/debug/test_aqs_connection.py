@@ -1,7 +1,10 @@
 import requests
 
-EMAIL = "riyajalmahadi@gmail.com"
-KEY = "tealkit53"
+import os
+from dotenv import load_dotenv
+load_dotenv()
+EMAIL = os.environ["AQS_EMAIL"]
+KEY = os.environ["AQS_KEY"]
 
 url = "https://aqs.epa.gov/data/api/list/states"
 params = {"email": EMAIL, "key": KEY}

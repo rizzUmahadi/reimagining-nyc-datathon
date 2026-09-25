@@ -63,3 +63,33 @@ Open `http://localhost:8000/draft_map.html` in your browser.
   `c3uy-2p5r`), pulled via API — see `scripts/pull_pm25_full.py`.
 - Boundaries: NYC Community Districts (`data.cityofnewyork.us`, dataset
   `5crt-au7u`).
+## Viewing the four PM2.5 maps
+
+There are four maps showing air quality by district/monitor:
+
+1. `outputs/map_2024_v2.html` — PM2.5 by community district, 2024
+2. `outputs/map_2025_v2.html` — PM2.5 by community district, 2025
+3. `outputs/map_2026_v3.html` — PM2.5 at individual EPA monitor sites, 2026
+   (Jan-Jul only; full district-level 2026 data doesn't exist yet, so this
+   is a point map, not a choropleth — see Known Limitations)
+4. `outputs/map_change_2024_2025.html` — the 2024→2025 change, one map,
+   colored by how much each district's PM2.5 changed (blue = improved,
+   red = worsened). This is the map that actually shows the year-over-year
+   story — maps 1 and 2 alone look nearly identical since PM2.5 changes are
+   small relative to their absolute levels.
+
+To view any of them, they must be served locally (opening the HTML file
+directly is blocked by the map tile provider's policy):
+
+cd outputs
+python3 -m http.server 8000
+
+Then open in your browser:
+- http://localhost:8000/map_2024_v2.html
+- http://localhost:8000/map_2025_v2.html
+- http://localhost:8000/map_2026_v3.html
+- http://localhost:8000/map_change_2024_2025.html
+
+Note: `outputs/` also contains several older/intermediate map files
+(map_2024.html, map_2026_partial.html, map_2026_fixed.html, etc.) from
+earlier iterations — the four listed above are the current, correct ones.
